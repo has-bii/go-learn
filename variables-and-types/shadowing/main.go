@@ -8,11 +8,11 @@ func main() {
 	// the inner variable shadows the outer one.
 
 	x := 100
-	fmt.Println(x)
+	fmt.Println(x) // Print 100
 
 	if true {
 		x := 10
-		fmt.Println(x)
+		fmt.Println(x) // Print 10
 	}
 
 	// Outer scope: `x := 100` defines `x` in the main function's scope.
